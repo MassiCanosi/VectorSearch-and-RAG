@@ -1,4 +1,4 @@
-# 🚀 Vector Search and RAG
+# Vector Search and RAG
 Welcome to a collection of projects exploring vector search and retrieval-augmented generation (RAG) techniques! This repository showcases multiple implementations demonstrating how vector embeddings, search algorithms, and AI models can work together to enhance content retrieval and generation.
 
 From setting up vector search with MongoDB to experimenting with cutting-edge RAG techniques, this repo is designed for anyone interested in taking the first steps into the power of search and generation systems. Dive in to see how AI can be augmented by powerful search methodologies!
