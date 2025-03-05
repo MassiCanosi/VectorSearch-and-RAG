@@ -7,10 +7,10 @@ From setting up vector search with MongoDB to experimenting with cutting-edge RA
 MongoDB: Using clusters, indexes, and Atlas Search to build scalable vector search solutions.
 
 # 📚 Useful Content
-# MongoDB Documentation
+## MongoDB Documentation
 Explore the official MongoDB docs for in-depth guides on setting up vector search and managing your database clusters.
 
-# Vector Search Similarity Methods
+## Vector Search Similarity Methods
 A comprehensive list of similarity search algorithms that power vector search operations, from basic cosine similarity to more advanced methods.
 
 # 📝 License
