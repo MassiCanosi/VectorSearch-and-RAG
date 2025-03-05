@@ -9,9 +9,11 @@ MongoDB: Using clusters, indexes, and Atlas Search to build scalable vector sear
 # 📚 Useful Content
 ## MongoDB Documentation
 Explore the official MongoDB docs for in-depth guides on setting up vector search and managing your database clusters.
-
+  https://www.mongodb.com/docs/atlas/atlas-vector-search/vector-search-overview/?tck=docs_server_toc
 ## Vector Search Similarity Methods
 A comprehensive list of similarity search algorithms that power vector search operations, from basic cosine similarity to more advanced methods.
+  https://crucialbits.com/blog/a-comprehensive-list-of-similarity-search-algorithms/
+
 
 # 📝 License
 This repository is licensed under the MIT License. Feel free to explore, use, and contribute!
