@@ -13,6 +13,9 @@ Explore the official MongoDB docs for in-depth guides on setting up vector searc
 ## Vector Search Similarity Methods
 A comprehensive list of similarity search algorithms that power vector search operations, from basic cosine similarity to more advanced methods.
   https://crucialbits.com/blog/a-comprehensive-list-of-similarity-search-algorithms/
+## HuggingFace Documentation
+Getting Started With Embeddings
+  https://huggingface.co/blog/getting-started-with-embeddings
 
 
 # 📝 License
