@@ -1,0 +1,380 @@
+body { 
+  background-color: rgb(245, 245, 245);
+  margin: 0%;
+  height: 100vh;
+  width: 100vw; 
+  font-family: 'Houschka Rounded', sans-serif;
+  user-select: none;
+}
+
+/* LOGIN PAGE */
+.loginSlot {
+  padding-top: 8vh;
+  width: 100vw;
+  height: 92vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: antiquewhite;
+}
+
+<<<<<<< HEAD
+=======
+.adeLogo {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+}
+
+>>>>>>> 0cea8520f9004bdee3dee1ea41774f82de7967e9
+.loginText {
+  font-size: larger;
+  text-align: center;
+}
+
+.loginBtn {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  font-family: 'Houschka Rounded', sans-serif;
+}
+
+.loginBtn:hover, .loginBtn:focus {
+  background-color: #45a049;
+  cursor: pointer;
+  box-shadow: 5px 5px 1px 0.5px rgba(185, 19, 19, 0.493);
+<<<<<<< HEAD
+=======
+}
+
+.logo2 {
+  height: 70%;
+  width: 70%;
+}
+
+
+/* HOME PAGE */
+
+#section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f83131;
+  height: 7vh;
+}
+
+.aiLogo {
+  background-color: rgba(233, 139, 139, 0.938);
+  border-radius: 50%;
+}
+
+.aiLogochatContainer {
+  height: 85vh;
+  width: 100vw;
+  object-fit: contain;
+}
+.aiLogochat {
+  height: 80%;
+  width: 100%;
+  transform: scale(2);
+  animation: pulse 1s infinite;
+} 
+
+@keyframes pulse {
+  0% {
+      transform: scale(0.95);
+  }
+
+  70% {
+      transform: scale(1);
+  }
+
+  100% {
+      transform: scale(0.95);
+  }
+}
+
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3vh;
+}
+
+.micBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border-style: dashed;
+  height: 8vh;
+  width: 16vw;
+  background-color: #c1e4f585;
+}
+
+.gpttext {
+  font-size: small;
+  font-weight: bold;
+  text-align: center;
+}
+
+.closeBtn {
+  display: flex;
+  justify-content: flex-end;
+  height: 3vh;
+  width: 100%;
+  margin-top: 2vh;
+  object-fit: contain;
+}
+
+.closeIcon {
+  height: 5vh;
+  margin-right: 3.5vw;
+}
+
+.closeIcon:hover, .closeIcon:focus {
+  background-color: #cc55ccce;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+/* TOP SECTION - ICONS AND USER DETAILS + PROPIC */
+#section2 {
+  border-bottom: solid 3px #f83131;
+  height: 15vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.settingsimg {
+  margin-top: 2vh;
+  margin-left: 4vw;
+  height: 4vh;
+}
+
+.bellimg {
+  margin-top: 1.5vh;
+  margin-left: 5vw;
+  height: 5vh;
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10vw; 
+  width: 25vw;
+  font-size: 1vh;
+}
+
+.userName {
+  font-weight: bold;
+}
+
+.subText {
+  font-size: 0.7em;
+  text-align: center;
+}
+
+.arrowBtn {
+  border: none;
+  background-color: transparent;
+}
+
+.arrowIcon {
+  height: 3vh;
+}
+
+.userImgContainer {
+  height: 8vh;
+  width: 18vw;
+  margin-left: 5vw;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.userImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* CENTRAL CONTENT */
+#section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3vh;
+  height: 65vh;
+}
+
+.generalContentTitle {
+  margin-top: 0.3vh;
+  margin-left: 5vw;
+  font-size: 1.5vh;
+}
+
+.jobContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4vw;
+  height: 26vh;
+  width: 90vw;
+  border-radius: 12px;
+  box-shadow: 1px 1px 1px 1px rgba(175, 175, 175, 0.49);
+  border: 2px solid rgb(222, 222, 222);
+}
+
+/* CONTENT SLOT - UPPER SECTION */
+.topSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: 3vw;
+  margin-top: 1vw;
+}
+
+.addedWhen {
+  display: flex;
+  justify-content: baseline;
+  font-size: 1vh;
+  color: rgb(205, 205, 205);
+  padding-bottom: 1vh;
+}
+.stelline {
+  height: 5vh;
+  margin-top: 1vw;
+}
+
+.stelline:focus {
+  box-shadow: 5px 5px 1px 0.5px rgba(185, 19, 19, 0.493);
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+/* JOB INFORMATION */
+.jobTitle {
+  font-size: 2.5vh;
+  color: #f83131;
+  padding-bottom: medium;
+  margin-left: 5vw;
+}
+
+.seeOffer {
+  display: flex;
+  text-decoration: underline;
+  font-size: 1.5vh;
+  color: #f83131;
+  padding-bottom: 2vh;
+  margin-left: 5vw;
+}
+
+.noto-color-emoji-regular {
+  font-family: "Noto Color Emoji", sans-serif;
+}
+
+.location, .service {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  font-size: 1vh;
+  padding-bottom: 1vh;
+  margin-left: 5vw;
+}
+
+/* CONTENT SLOT - CONTAINER */
+.candidatiContainer {
+  display: flex;
+  flex-direction: row;
+  border-top: 3.5px solid white;
+  height: 5vh;
+  border-radius: 0px 0px 12px 12px;
+  background-color: #f83131;
+  font-weight: bold;
+  font-size: 2.5vh;
+  color: antiquewhite;
+  align-items: center;
+  justify-content: center;
+}
+
+.candidatiContainer:hover, .candidatiContainer:focus {
+  background-color: #fd6e6e;
+  cursor: pointer;
+}
+
+.simulaContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  height: 5vh;
+  background-color: #f83131;
+  font-weight: bold;
+  font-size: 2.5vh;
+  color: antiquewhite;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none !important;
+}
+
+.simulaContainer:hover, .simulaContainer:focus {
+  background-color: #fd6e6e;
+  cursor: pointer;
+}
+
+
+/* BOTTOM BUTTONS - NAVIGATION */
+#section4 {
+  display: flex;
+  flex-direction: row;
+  background-color: #f83131;
+  height: 13vh;
+  width: 100vw;
+  margin-bottom: 0;
+}
+
+.footer  {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridcontainers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  border: 0.1px solid rgb(255, 255, 255);
+}
+
+.gridcontainers:hover, .gridcontainers:focus {
+  background-color: #fd6e6e;
+  cursor: pointer;
+}
+
+.gridselectors {
+  height: 4vh;
+}
+
+.interviewSim {
+  border: 1px solid red;
+  border-radius: 12px;
+  padding: 2% 2% 2% 2%;
+  background-color: red;
+>>>>>>> 0cea8520f9004bdee3dee1ea41774f82de7967e9
+}

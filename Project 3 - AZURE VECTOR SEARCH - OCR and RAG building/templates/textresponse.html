@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for ('static', filename='chatbotUI.css') }}" />
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="/static/chat.js" defer></script>
+    <title>Document</title>
+</head>
+    <body>
+        <header class="redAiText">
+            Chatbot DEMO
+        </header>
+
+        <section class="flexBox">
+            <main class="mainPage">
+                <section id="responseArea" class="responseArea">
+                    <!-- QUI TESTO -->
+                </section>
+                <div class="mainText">
+                    Chat
+                </div>
+                <div class="mainInputContainer">
+                    <textarea autofocs autocomplete="off" class="inputBox" id="inputBox" placeholder=""></textarea>
+
+                    <div class="sendBtn" id="textBtn">
+                        <box-icon type="solid" name="arrow-from-left" color="white" size="sm"></box-icon>
+                    </div>
+                </div>
+            </main>
+        </section>
+    </body>
+</html>

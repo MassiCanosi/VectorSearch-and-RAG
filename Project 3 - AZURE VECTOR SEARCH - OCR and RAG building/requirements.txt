@@ -1,0 +1,10 @@
+quart
+authlib
+hypercorn
+python-dotenv
+openai
+diskcache
+azure-cognitiveservices-speech
+aiohttp
+azure-core
+azure-search-document

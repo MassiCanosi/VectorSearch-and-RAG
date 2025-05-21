@@ -1,0 +1,173 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: "Neutraface Text";
+    background-color: rgb(51, 50, 50);
+}
+
+
+/* PAGE STYLE */
+.redAiText {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    height: 10vh;
+    width: 98vw;
+    padding-left: 2vw;
+    font-size: 3vh;
+    font-weight: bold;
+    background-color: #5CB8B2;
+    color: gainsboro;
+}
+
+.flexBox {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.mainPage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    width: 90vw;
+    height: inherit;
+
+    color: rgb(65, 62, 62);
+}
+
+.responseArea {
+    height: 70vh;
+    width: 90vw;
+    overflow-y: auto;
+}
+
+.mainText {
+    margin-top: 3vh;
+    font-size: 4vh;
+    text-align: center;
+    margin-bottom: 2vh;
+    color: gainsboro;
+}
+
+.mainInputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 90vw;
+    gap: 1.5vw;
+}
+
+.inputBox {
+    width: 70vw;
+    height: 8vh;
+    resize: none;
+    border: 2px solid rgb(65, 62, 62);
+    border-radius: 12px;
+    font-size: 1.5vh;
+}
+
+.inputBox:focus {
+    border: 3px solid #5CB8B2;
+    outline: none;
+}
+
+.inputBox:hover {
+    cursor:text;
+}
+
+.inputBox::placeholder {
+    font-weight: bold;
+}
+
+.sendBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12vw;
+    height: 8vh;
+    background-color: rgb(65, 62, 62);
+    border: 2px solid gray;
+    border-radius: 12px;
+}
+
+.sendBtn:hover {
+    cursor: pointer;
+    background-color: rgb(98, 94, 94);
+}
+
+.sendBtn:focus {
+    background-color: red;
+    animation: pulse 2s infinite;
+}
+
+
+.loadingtext {
+    user-select: none;
+}
+
+.sendBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12vw;
+    height: 8vh;
+    background-color: rgb(65, 62, 62);
+    border: 2px solid gray;
+    border-radius: 12px;
+}
+
+/* DYNAMIC CREATION */
+.user_input {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    width: 90vw;
+    color: antiquewhite
+}
+
+.user_text {
+    border-radius: 12px;
+    padding: 2% 2% 2% 2%;
+    background-color: rgba(84, 207, 255, 0.226);
+    font-size: 2vh;
+}
+
+.gptMainSlot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2% 2% 2% 2%;
+    background-color: #5CB8B2;
+    border-radius: 12px;
+    width: 40vw;
+    font-size: 2vh;
+    color: antiquewhite
+}
+
+.gpt_output {
+    display: flex;
+    justify-content: baseline;
+    margin-bottom: 1vh;
+}
+
+
+.linkcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    text-decoration: none;
+}
+
+a:link {
+    color: #085a55
+}

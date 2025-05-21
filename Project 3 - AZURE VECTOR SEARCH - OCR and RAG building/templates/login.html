@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Login</title>
+  <script src="https://alcdn.msauth.net/browser/2.35.0/js/msal-browser.min.js"></script>
+  <script>
+    const CLIENT_ID = "{{ client_id }}";
+    const TENANT_ID = "{{ tenant_id }}";
+  </script>
+  <script src="/static/login.js" defer></script>
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <!-- Login wrapper completamente nascosto inizialmente -->
+  <div id="loginWrapper">
+    <section class="loginSlot" id="loginPage">
+<<<<<<< HEAD
+            <h2 class="loginText">
+            <strong>DEMO: RAG Based Chatbot</strong> <br> 
+            Log in to the platform to interact with our virtual assistant, <br> 
+            designed to guide you.
+          </h2>
+          <button class="loginBtn" id="buttonSSO">Log In</button>
+=======
+            <img class="adeLogo" src="/static/AdeccoLogo.png"></img>
+            <h2 class="loginText">
+            <strong>Compliance, semplificata.</strong> <br> 
+            Accedi alla piattaforma per interagire con il nostro assistente virtuale, <br>
+            progettato per guidarti con precisione tra policy, procedure e normative.
+          </h2>
+          <button class="loginBtn" id="buttonSSO">Accedi con SSO</button>
+>>>>>>> 0cea8520f9004bdee3dee1ea41774f82de7967e9
+          <div id="userInfo"></div>
+    </section>
+  </div>
+
+  <script>
+    const login = document.getElementById("loginWrapper");
+
+    const loginbtn = document.getElementById("buttonSSO");
+    const loader = document.querySelector(".loader");
+    if (loginbtn && loader) {
+      loginbtn.addEventListener("click", function () {
+        loader.style.display = "block";
+      });
+    }
+  </script>
+</body>
+</html>
